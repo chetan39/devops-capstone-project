@@ -133,6 +133,7 @@ def update_account(account_id: int):
 
 ######################################################################
 # DELETE AN ACCOUNT
+# this line is added by chetan
 ######################################################################
 @app.route("/accounts/<int:account_id>", methods=["DELETE"])
 def delete_account(account_id: int):
